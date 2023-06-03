@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 import Movie from './Movie.js';
 
 const input = prompt();
-let apiUrl = 'https://my-json-server.typicode.com/Mohammad-Abohasan/Fake-API/blob/master/Movie';
+let apiUrl = 'https://my-json-server.typicode.com/Mohammad-Abohasan/Movie-Catalog-CLI-App/blob/master/Movie'; // using as fake-api
 let movies = [];
 
 const readAMovies = () => {
@@ -99,7 +99,7 @@ const deleteMovie = () => {
         console.log('movie id not found!');
     } else {
         movies.splice(index, 1);
-        console.log('Task Deleted Successfully 🙂');
+        console.log('Movie Deleted Successfully 🙂');
     }
     appendDataToFile();
 }
