@@ -1,14 +1,14 @@
 import prompt from 'prompt-sync';
 import fs from 'fs';
 import fetch from "node-fetch";
-import Movie from './Movie.js';
+import Movie from '../model/Movie.js';
 
 const input = prompt();
 let apiUrl = 'https://my-json-server.typicode.com/Mohammad-Abohasan/Movie-Catalog-CLI-App/blob/master/Movie'; // using as fake-api
 let movies = [];
 
 const readAMovies = () => {
-    fs.readFile("movies.json", "utf-8", (err, data) => {
+    fs.readFile("./model/movies.json", "utf-8", (err, data) => {
         if (err) {
             console.log("Something went wrong while reading the file!");
             console.log(err.message);
@@ -41,7 +41,7 @@ const appendDataToFile = (newData = []) => {
         const newMovie = new Movie(m.id, m.title, m.year, m.genre, m.duration, m.director, m.votes);
         movies.push(newMovie);
     })
-    fs.writeFile("movies.json", JSON.stringify(movies), 'utf-8', (err) => {
+    fs.writeFile("./model/movies.json", JSON.stringify(movies), 'utf-8', (err) => {
         if (err) {
             console.log('Something went wrong while writing to the file!');
             console.log(err.message);
