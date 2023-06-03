@@ -1,0 +1,101 @@
+[
+    {
+        "id": 7399,
+        "title": "Synchronized Solution",
+        "year": 1996,
+        "genre": "Drama",
+        "duration": 107,
+        "director": "Eleanor Jenkins",
+        "votes": 83
+    },
+    {
+        "id": 2340,
+        "title": "Dynamic Global",
+        "year": 1972,
+        "genre": "Comedy",
+        "duration": 78,
+        "director": "Douglas Coleman",
+        "votes": 47
+    },
+    {
+        "id": 4375,
+        "title": "Visionary Thunder",
+        "year": 2008,
+        "genre": "Thriller",
+        "duration": 129,
+        "director": "Julia Williams",
+        "votes": 51
+    },
+    {
+        "id": 4229,
+        "title": "Bold Reality",
+        "year": 1981,
+        "genre": "Romance",
+        "duration": 174,
+        "director": "Jennifer Thomas",
+        "votes": 99
+    },
+    {
+        "id": 5094,
+        "title": "Hidden Echo",
+        "year": 1955,
+        "genre": "Mystery",
+        "duration": 89,
+        "director": "Steven Foster",
+        "votes": 62
+    },
+    {
+        "id": 6353,
+        "title": "Eternal Signal",
+        "year": 2015,
+        "genre": "Sci-Fi",
+        "duration": 123,
+        "director": "Karen Johnson",
+        "votes": 21
+    },
+    {
+        "id": 8457,
+        "title": "Daring Trail",
+        "year": 1968,
+        "genre": "Adventure",
+        "duration": 96,
+        "director": "Cynthia Davis",
+        "votes": 14
+    },
+    {
+        "id": 8295,
+        "title": "movie-1",
+        "year": "2020",
+        "genre": "drama",
+        "duration": "103",
+        "director": "Mohammad Abohasan",
+        "votes": "34"
+    },
+    {
+        "id": 7452,
+        "title": "movie-2",
+        "year": "2021",
+        "genre": "Action",
+        "duration": "35",
+        "director": "Mohammad Abohasan",
+        "votes": "23"
+    },
+    {
+        "id": 2079,
+        "title": "movie-3",
+        "year": "2012",
+        "genre": "Action",
+        "duration": "120",
+        "director": "Mohammad Abohasan",
+        "votes": "22"
+    },
+    {
+        "id": 5553,
+        "title": "movie-4",
+        "year": "2020",
+        "genre": "drama",
+        "duration": "20",
+        "director": "Rami",
+        "votes": "2"
+    }
+]
