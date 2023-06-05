@@ -17,7 +17,6 @@ const readAMovies = () => {
             readMovies.map((m) => {
                 const newMovie = new Movie(m.id, m.title, m.year, m.genre, m.duration, m.director, m.votes);
                 movies.push(newMovie);
-
             });
             showActions();
         }
