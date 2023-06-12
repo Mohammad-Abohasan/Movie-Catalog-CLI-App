@@ -21,3 +21,7 @@ Select an action:
   8) Clear all movies     
   9) Exit                 
 ***
+
+<div align="center" >
+  <img src="https://github.com/Mohammad-Abohasan/Movie-Catalog-CLI-App/assets/74917940/03fa71ab-7aee-4c75-81cb-ec8a8652c4c7" width="600px"/>
+</div>
